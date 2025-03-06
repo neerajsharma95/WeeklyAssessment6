@@ -66,6 +66,26 @@ class Main {
 			b[i].setPublisher(sc.nextLine());
 			b[i].setQuantity(Integer.parseInt(sc.nextLine()));
 			bb.add(b[i]);
+
+
+			/*  n = Integer.parseInt(sc.nextLine());
+
+        // Create LinkedHashSet to store books
+        LinkedHashSet<Book> bb = new LinkedHashSet<Book>();
+
+        // Read book details and add them to the set
+        for (int i = 0; i < n; i++) {
+            int id = Integer.parseInt(sc.nextLine());
+            String name = sc.nextLine();
+            String author = sc.nextLine();
+            String publisher = sc.nextLine();
+            int quantity = Integer.parseInt(sc.nextLine());
+
+            // Create and add the Book object directly to the set
+            bb.add(new Book(id, name, author, publisher, quantity));
+        }
+   
+   */
 		}
 		String searchBook = sc.nextLine();
 		for(Book b1 : bb) {
